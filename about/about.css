@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to top right, rgb(28, 110, 116) 0%, #AAB7B8 51%, #08909A 100%);
+}
+
+.info h1 {
+    text-align: center;
+}
+
+.info p {
+    margin-left: 50px;
+}

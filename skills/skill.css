@@ -1,0 +1,99 @@
+.container, .small-container {
+    max-width: 150vh;
+    padding-right: 1rem;
+    padding-bottom: 2px;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.alt-bg {
+    background: linear-gradient(to top right,rgb(50, 143, 143),#b19191);
+}
+
+div {
+    display: block;
+}
+
+.section {
+    padding-top: 3rem;
+    padding-right: 2px;
+    padding-bottom: 3rem;
+    padding-left: 0px;
+}
+
+.skills {
+    flex-wrap: wrap;
+}
+
+.skills .card img {
+    max-width: 50px;
+    border-radius: 6px;
+}
+
+.card {
+    width: 320px;
+    height: 130px;
+    border: 1px solid rgb(139, 123, 83);
+    flex: 1.1;
+    padding: 3.8rem;
+    background: rgb(141, 108, 108);
+    border-radius: 7px;
+    box-shadow: 0 2px 2px rgba(146, 107, 107, 0.1);
+    margin: 1.5rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card br {
+    color: black;
+}
+
+.card img {
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;   
+    margin-left: auto;    
+}
+html {
+    font-size: 1rem;
+    font-family: nunito sans,sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-shadow: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    display: block;
+    font-weight: 400px;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 16px;
+}

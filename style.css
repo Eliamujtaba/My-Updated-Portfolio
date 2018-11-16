@@ -1,0 +1,242 @@
+body {
+ background-image: url("images/html2.jpg");
+ height: 90%;
+}
+
+/* nav bar and header */
+.logo {
+  margin-left: 70px;
+}
+
+nav {
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 45px; 
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: bold;
+}
+
+nav a:hover {
+  color: rgb(223, 91, 91);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+hr {
+  width: 90%;  
+  background-color: white;
+  padding: 1px;
+  margin-top: -10px;
+  }
+
+  /* home page text */
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: 7%;
+}
+
+.text-wrapper h1 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+
+}
+
+.text-wrapper h3 {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.text-wrapper h4 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/*--------- Photo-car -----------*/
+
+.mujtaba-page {
+  margin-left: 59%;
+  margin-top: 70px;
+  width: 32%;
+  height: 45vh;
+  background: white;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.mujtaba-page .pic {
+  display: inline-block;
+  width: 145px;
+  height: 162px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.mujtaba-page .pic::before {
+  content: "";
+  width: 100%;
+  background: rgb(223, 91, 91);
+  position: absolute;
+  bottom: 145%;
+  right: 0;
+  left: 0;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.mujtaba-page:hover .pic:before {
+  height: 100%;
+}
+
+.mujtaba-page .pic::after {
+  content: "";
+  width: 70%;
+  height: 100%;
+  border-radius: 30%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title {
+ color: darkcyan;
+ font-size: 30px;
+}
+
+.title:hover {
+  color: rgb(223, 91, 91);
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.post {
+  color: darkcyan;
+  display: block;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.post:hover {
+  color: rgb(223, 91, 91);
+}
+
+.mujtaba-page .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgb(223, 91, 91);
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transform: all 0.5s ease 0s;
+}
+
+.mujtaba-page:hover .social {
+  bottom: 0;
+}
+
+.mujtaba-page .social li {
+  display: inline-block;
+}
+
+.mujtaba-page .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transform: all 0.3s ease 0s;
+}
+
+.mujtaba-page .social li a:hover {
+  color: #eb1768;
+  background: #f7f5ec;
+  text-decoration: none;
+}
+
+.mujtaba-page .pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.mujtaba-page:hover .pic img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+/*-------- button -------------*/
+
+a.Resume {
+  margin-top: 50px;
+  margin-left: 46%;
+  display: inline-block;
+  transition: 500ms ease 0s;
+  background-image: linear-gradient(to top right, #45bafc 0%, darkcyan 31%, #45bafc 90%);
+  background-size: 350% auto;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 1rem 1.75rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 2px 3px 8px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+
+a.Resume:hover {
+  color: rgb(223, 91, 91);
+}
+
+
+
+ 

@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(to top right, rgb(175, 115, 115) 0%, darkcyan 31%, rgb(175, 115, 115) 100%);
+}
+
+.section-header h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.section-header p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a.btn {
+    display: inline-block;
+    transition: 500ms ease 0s;
+    background-image: linear-gradient(to top right, #57eea1 0%, darkcyan 31%, #57eea1 100%);
+    background-size: 300% auto;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1rem 1.75rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    box-shadow: 2px 3px 8px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+/*-------- projects ----------*/
+
+.project {
+    max-width: 150vh;
+    padding-right: 1rem;
+    padding-bottom: 2px;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card {
+   width: 17%;
+   margin-top: 15px;
+   margin-left: 145px;
+   margin-bottom: 30px;
+   background-image: linear-gradient(to top right, #57eea1 0%, silver 31%, #57eea1 100%);
+   display: inline-block;
+   border-radius: 5px;
+   box-shadow: 2px 2px 10px black;
+} 
+
+.card h2 {
+    color: black;
+    font-size: 16px;
+}
+
+.card img {
+   width: 100%;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+  
+}
+
+.title {
+    text-align: center;
+    font-size: 8px;
+}
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top right, #57eea1 0%, darkcyan 31%, #57eea1 100%);
+    border-radius: 5px;
+    padding: 5px;
+    width: 25%;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.link a {
+    color:white;
+}
+

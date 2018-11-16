@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(to top right, rgb(224, 197, 197) 0%, rgb(45, 182, 182) 41%, rgb(224, 197, 197) 80%);
+}
+
+.Elia-info h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Elia-info p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.form label {
+    color: white;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#name {
+    width: 30%;
+    padding: 15px;
+    margin-left: 20%;
+    margin-top: 50px;
+    border-radius: 6px;
+    border: darkcyan;
+}
+
+#email {
+    width: 35%;
+    margin-left: 20%;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 6px;
+    border: darkcyan;
+}
+
+#message {
+    width: 45%;
+    margin-left: 20%;
+    margin-top: 50px;
+    border-radius: 6px;
+    border: darkcyan;
+
+}
+
+#send {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top right, #57eea1 0%, darkcyan 31%, #57eea1 100%);
+    border-radius: 5px;
+    padding: 5px;
+    width: 7%;
+    margin-left: 20%;
+    cursor: pointer;
+}
